@@ -1,0 +1,28 @@
+.bar-container {
+    width: 50%;
+    margin: 100px auto;
+}
+.bar {
+    width: 0;
+    height: 30px;
+    background-color: orange;
+    margin: 10px 0;
+    position: relative;
+    transition: width 0.5s;
+}
+.bar span {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    color: white;
+}
+.bar-30 { width: 30%; }
+.bar-100 { width: 100%; }
+.bar-90 { width: 90%; }
+.bar-10 { width: 10%; }
+.bar-50 { width: 50%; }
+.bar-60 { width: 60%; }
+.bar-40 { width: 40%; }
+.bar-80 { width: 80%; }
